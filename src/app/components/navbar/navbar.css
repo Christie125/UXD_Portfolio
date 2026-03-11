@@ -1,0 +1,12 @@
+:root {
+    --beige: #c9cad9;
+    --lavender: #d1d2f9;
+    --dark_lavender: #a3bcf9;
+    --purple: #7795cb;
+    --dark_purple: #576490;
+}
+
+* {
+    width: 100%;
+    margin: 0;
+}
