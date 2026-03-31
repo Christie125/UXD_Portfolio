@@ -1,0 +1,21 @@
+* {
+    overflow-x: hidden;
+}
+
+section {
+    background-color: var(--lavender);
+    padding: 3%;
+}
+
+.contact {
+    background-color: var(--beige);
+}
+
+app-basic-heading {
+    display: block;
+    --basic-heading-background: var(--quater-transparent-dark_lavender);
+}
+
+.about-section {
+    background-color: var(--half-transparent-lavender);
+}

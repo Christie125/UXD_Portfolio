@@ -1,12 +1,18 @@
-:root {
-    --beige: #c9cad9;
-    --lavender: #d1d2f9;
-    --dark_lavender: #a3bcf9;
-    --purple: #7795cb;
-    --dark_purple: #576490;
+nav {
+    width: 100%;
+    margin-left: 1%;
+    gap: 2%;
+    display: flex;
+    z-index: 1;
+    position: relative;
 }
 
-* {
-    width: 100%;
-    margin: 0;
+.link {
+    color: var(--text);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: var(--dark_lavender);
 }

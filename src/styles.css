@@ -1,13 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Julius+Sans+One&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
 
 :root {
-    --beige: #c9cad9;
+    --beige: #f6f7f8;
     --lavender: #d1d2f9;
+    --half-transparent-lavender: rgba(209, 210, 249, 0.5);
     --dark_lavender: #a3bcf9;
+    --half-transparent-dark_lavender: rgba(163, 188, 249, 0.5);
+    --quater-transparent-dark_lavender: rgba(163, 188, 249, 0.25);
     --purple: #7795cb;
     --dark_purple: #576490;
+    --darker_purple: #3b4a6b;
+    --text: #1f1e23;
 }
 
 html,

@@ -1,0 +1,22 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+    margin: auto;
+    max-width: 30vw;
+    height: 100vh !important;
+}
+
+img {
+    max-height: 40vh !important;
+    overflow: hidden;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}

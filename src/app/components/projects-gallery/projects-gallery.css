@@ -1,0 +1,11 @@
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    justify-content: center;
+    padding: 1%;
+}
+
+section {
+    padding: 2%;
+}

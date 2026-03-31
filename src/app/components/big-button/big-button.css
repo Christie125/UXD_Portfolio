@@ -1,0 +1,17 @@
+button {
+    background-color: var(--dark_purple);
+    color: var(--beige);
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    min-width: 40vw;
+    font-family: "Figtree", sans-serif;
+    transition: ease-in-out;
+}
+
+button:hover {
+    background-color: var(--darker_purple);
+    cursor: pointer;
+    box-shadow: 0px 4px 8px var(--text);
+}

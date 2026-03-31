@@ -1,0 +1,13 @@
+section {
+    background-color: var(--half-transparent-lavender);
+    padding: 3%;
+}
+
+app-basic-heading {
+    display: block;
+    --basic-heading-background: var(--lavender);
+}
+
+* {
+    overflow-x: hidden;
+}

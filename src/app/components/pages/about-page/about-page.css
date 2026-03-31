@@ -1,0 +1,12 @@
+* {
+    overflow-x: hidden;
+}
+
+app-basic-heading {
+    display: block;
+    --basic-heading-background: var(--half-transparent-dark_lavender);
+}
+
+.about-section {
+    background-color: var(--half-transparent-lavender);
+}

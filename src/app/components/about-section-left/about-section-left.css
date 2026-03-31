@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: auto;
+}
+
+.image {
+    flex: 1;
+    max-width: 40%;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    flex: 1;
+    max-width: 40%;
+    line-height: 1.5;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+app-big-button {
+    margin-top: 1rem;
+    max-width: 30vw !important;
+}
+
+:host(.about-image) .image img {
+    scale: 0.7;
+    margin: 0.5rem;
+    max-height: 70vh;
+    width: auto;
+    border-radius: 15px;
+    border: 1px solid var(--lavender);
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+
+}
+
+:host(.about-image) .image img:hover {
+    scale: 0.75;
+    transition: transform 0.3s ease-in-out;
+    border-color: var(--dark_lavender);
+}

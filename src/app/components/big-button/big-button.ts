@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-big-button',
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './big-button.css',
 })
 export class BigButton {
-
+  @Input() text = '';
 }

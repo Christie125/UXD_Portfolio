@@ -1,1 +1,10 @@
-<p>projects-gallery-project works!</p>
+<div class="project">
+    <img [src]="image" [alt]="imageAlt" class="project-image">
+    <div class="project-info">
+        <h4>{{ heading }}</h4>
+        <p>{{ paragraph }}</p>
+        <a [href]="link" target="_blank" rel="noopener noreferrer">
+            <app-project-button text="View Project"></app-project-button>
+        </a>
+    </div>
+</div>
