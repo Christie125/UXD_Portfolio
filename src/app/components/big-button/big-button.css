@@ -1,17 +1,22 @@
 button {
     background-color: var(--dark_purple);
     color: var(--beige);
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0.7rem;
     border: none;
     border-radius: 0.5rem;
-    min-width: 40vw;
+    min-width: 17rem;
     font-family: "Figtree", sans-serif;
-    transition: ease-in-out;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 button:hover {
     background-color: var(--darker_purple);
     cursor: pointer;
-    box-shadow: 0px 4px 8px var(--text);
+    box-shadow: 0 4px 8px rgba(31, 30, 35, 0.35);
+}
+
+button:focus-visible {
+    outline: 3px solid var(--darker_purple);
+    outline-offset: 2px;
 }

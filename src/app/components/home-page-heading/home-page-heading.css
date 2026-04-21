@@ -1,0 +1,40 @@
+section {
+    background-color: var(--homepage-heading-background, transparent);
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.text {
+    padding: 10%;
+    margin: 0;
+}
+
+.polaroids {
+    width: 35vw;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    color: var(--text);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2rem;
+    color: var(--text);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Homemade Apple", cursive;
+}

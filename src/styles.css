@@ -6,6 +6,7 @@
 
 :root {
     --beige: #f6f7f8;
+    --blue-beige: #e8e9f0;
     --lavender: #d1d2f9;
     --half-transparent-lavender: rgba(209, 210, 249, 0.5);
     --dark_lavender: #a3bcf9;
@@ -17,10 +18,25 @@
     --text: #1f1e23;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
     font-family: 'Figtree', sans-serif;
-    box-sizing: border-box;
+    color: var(--text);
+    background: var(--beige);
+}
+
+/* Keyboard accessibility */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--dark_purple);
+    outline-offset: 2px;
 }

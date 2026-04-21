@@ -11,9 +11,9 @@ section {
     background-color: var(--beige);
 }
 
-app-basic-heading {
+app-home-page-heading {
     display: block;
-    --basic-heading-background: var(--quater-transparent-dark_lavender);
+    --homepage-heading-background: var(--half-transparent-dark_lavender);
 }
 
 .about-section {

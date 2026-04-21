@@ -1,7 +1,3 @@
-* {
-    overflow-x: hidden;
-}
-
 app-basic-heading {
     display: block;
     --basic-heading-background: var(--quater-transparent-dark_lavender);
