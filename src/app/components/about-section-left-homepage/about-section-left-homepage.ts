@@ -2,14 +2,15 @@ import { Component, Input } from '@angular/core';
 import { BigButton } from '../big-button/big-button';
 
 @Component({
-  selector: 'app-about-section-left',
+  selector: 'app-about-section-left-homepage',
   imports: [BigButton],
-  templateUrl: './about-section-left.html',
-  styleUrl: './about-section-left.css',
+  templateUrl: './about-section-left-homepage.html',
+  styleUrl: './about-section-left-homepage.css',
 })
-export class AboutSectionLeft {
+export class AboutSectionLeftHomePage {
   @Input() image = '';
   @Input() imageAlt = ''
+  @Input() imageSubtitle = '';
   @Input() heading = '';
   @Input() paragraph = '';
   @Input() link = '';

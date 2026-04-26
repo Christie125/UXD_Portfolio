@@ -3,6 +3,7 @@ nav {
     margin-left: 1%;
     gap: 2%;
     display: flex;
+    flex-wrap: wrap;
     z-index: 1;
     position: relative;
 }
@@ -10,9 +11,33 @@ nav {
 .link {
     color: var(--text);
     font-size: 1.2rem;
+    padding: 0.2rem 0.3rem;
     cursor: pointer;
 }
 
 .link:hover {
     color: var(--dark_lavender);
+}
+
+@media (max-width: 768px) {
+    nav {
+        justify-content: center;
+        gap: 0.65rem 1rem;
+        margin-left: 0;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .link {
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        gap: 0.5rem;
+    }
+
+    .link {
+        font-size: 0.96rem;
+    }
 }

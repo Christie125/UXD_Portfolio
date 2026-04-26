@@ -5,7 +5,9 @@
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     margin: 0;
+    width: min(100%, 22rem);
     max-width: 22rem;
+    box-sizing: border-box;
     background-color: var(--half-transparent-lavender);
     transition: 0.3s ease-in-out;
 }
@@ -16,7 +18,10 @@
 
 .project-image {
     width: 100%;
+    display: block;
+    height: auto;
     max-height: 14rem;
+    object-fit: cover;
     border-radius: 6px;
 }
 
@@ -29,4 +34,31 @@
 
 h4 {
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .project {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        padding: 0.85rem;
+        border-radius: 12px;
+    }
+
+    .project-image {
+        max-height: 11rem;
+    }
+
+    h4 {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    .project-info p {
+        font-size: 0.95rem;
+        line-height: 1.4;
+    }
 }

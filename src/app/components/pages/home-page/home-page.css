@@ -19,3 +19,15 @@ app-home-page-heading {
 .about-section {
     background-color: var(--half-transparent-lavender);
 }
+
+@media (max-width: 768px) {
+    section {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 1rem 0.5rem;
+    }
+}

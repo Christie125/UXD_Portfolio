@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { HomePageHeading } from '../../home-page-heading/home-page-heading';
-import { AboutSectionLeft } from '../../about-section-left/about-section-left';
+import { AboutSectionLeftHomePage } from '../../about-section-left-homepage/about-section-left-homepage';
 import { HomeProjectGallery } from '../../home-project-gallery/home-project-gallery';
 import { ContactForm } from '../../contact-form/contact-form';
 import { Footer } from '../../footer/footer';
 
 @Component({
   selector: 'app-home-page',
-  imports: [HomePageHeading, AboutSectionLeft, HomeProjectGallery, ContactForm, Footer],
+  imports: [HomePageHeading, AboutSectionLeftHomePage, HomeProjectGallery, ContactForm, Footer],
   templateUrl: './home-page.html',
   styleUrl: './home-page.css',
 })

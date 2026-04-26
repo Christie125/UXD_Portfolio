@@ -5,12 +5,12 @@ section {
 }
 
 .text {
-    padding: 10%;
+    padding: clamp(1.5rem, 7vw, 6rem);
     margin: 0;
 }
 
 .polaroids {
-    width: 35vw;
+    width: min(35vw, 26rem);
     margin: 0;
     padding: 0;
 }
@@ -37,4 +37,47 @@ h3 {
     margin: 0;
     padding: 0;
     font-family: "Homemade Apple", cursive;
+}
+
+@media (max-width: 900px) {
+    .content {
+        gap: 1rem;
+    }
+
+    h1 {
+        font-size: clamp(2.4rem, 8vw, 3.4rem);
+    }
+
+    h3 {
+        font-size: clamp(1.2rem, 5vw, 1.7rem);
+    }
+
+    .polaroids {
+        width: min(44vw, 20rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    section {
+        padding-left: 0;
+    }
+
+    .polaroids {
+        width: min(80vw, 22rem);
+    }
+
+    .text {
+        padding-top: 0.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .text {
+        padding: 0.5rem 1rem 1.5rem;
+    }
 }

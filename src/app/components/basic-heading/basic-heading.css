@@ -5,7 +5,7 @@ section {
 }
 
 .content {
-    padding: 10%;
+    padding: clamp(2rem, 7vw, 6rem) clamp(1rem, 6vw, 6rem);
     margin: 0;
 }
 
@@ -24,4 +24,24 @@ h3 {
     margin: 0;
     padding: 0;
     font-family: "Homemade Apple", cursive;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: clamp(2rem, 8vw, 3rem);
+    }
+
+    h3 {
+        font-size: clamp(1rem, 4vw, 1.35rem);
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding-left: 0;
+    }
+
+    .content {
+        padding: 1.5rem 1rem 2rem;
+    }
 }

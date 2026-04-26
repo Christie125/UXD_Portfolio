@@ -1,12 +1,10 @@
 <section class="container">
     <section class="image">
         <img src={{image}} alt={{imageAlt}}>
+        <p class="image-subtitle">{{ imageSubtitle || imageAlt }}</p>
     </section>
     <section class="text">
         <h3 class="heading">{{heading}}</h3>
         <p class="paragraph">{{paragraph}}</p>
-        <a href={{link}}>
-            <app-big-button text="Learn More"></app-big-button>
-        </a>
     </section>
 </section>

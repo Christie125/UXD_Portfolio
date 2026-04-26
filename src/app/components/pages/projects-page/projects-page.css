@@ -3,3 +3,9 @@ app-basic-heading {
     --basic-heading-background: var(--quater-transparent-dark_lavender);
 
 }
+
+@media (max-width: 480px) {
+    app-basic-heading {
+        margin-bottom: 0.25rem;
+    }
+}

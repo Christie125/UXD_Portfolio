@@ -1,16 +1,14 @@
 form {
     background-color: var(--lavender);
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: clamp(1rem, 4vw, 2rem) 0;
     border-radius: 10px;
     font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
-    max-width: 50%;
+    width: min(92%, 42rem);
+    box-sizing: border-box;
 }
 
 .txt_field {
@@ -18,6 +16,12 @@ form {
     flex-direction: column;
     margin-bottom: 20px;
     width: 90%;
+}
+
+.txt_field input,
+.txt_field textarea {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #message textarea {
@@ -39,5 +43,53 @@ h3 {
 
 form:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    transition: ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.75rem;
+        margin-bottom: 1.25rem;
+    }
+
+    form {
+        width: min(94%, 36rem);
+    }
+
+    .txt_field {
+        width: 92%;
+    }
+}
+
+@media (max-width: 480px) {
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    form {
+        width: 96%;
+        border-radius: 8px;
+        padding: 0.9rem 0;
+    }
+
+    .txt_field {
+        width: 94%;
+        margin-bottom: 14px;
+    }
+
+    input,
+    #message textarea {
+        font-size: 0.95rem;
+    }
+
+    #message textarea {
+        min-height: 16vh;
+    }
+}
+
+#submit {
+    min-width: 70%;
+    text-align: center;
+    margin: auto;
 }

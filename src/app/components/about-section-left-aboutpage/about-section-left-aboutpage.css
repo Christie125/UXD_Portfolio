@@ -4,8 +4,9 @@
     justify-content: center;
     gap: 3rem;
     margin: auto;
-    margin-top: 2rem;
     width: min(94%, 72rem);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .image {
@@ -107,7 +108,6 @@ app-big-button {
         flex-direction: column;
         align-items: center;
         gap: 1rem;
-        margin-top: 1.25rem;
         width: 92%;
     }
 
@@ -127,8 +127,9 @@ app-big-button {
 
 @media (max-width: 480px) {
     .container {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
         width: 94%;
-        margin-top: 1rem;
     }
 
     .heading {
