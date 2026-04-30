@@ -1,5 +1,5 @@
 button {
-    background-color: var(--purple);
+    background-color: var(--dark_purple);
     color: var(--beige);
     font-size: 1rem;
     padding: 0.7rem;
@@ -16,6 +16,8 @@ button:hover {
     background-color: var(--dark_purple);
     cursor: pointer;
     box-shadow: 0px 2px 2px var(--text);
+    transform: translateY(-2px);
+
 }
 
 @media (max-width: 480px) {
