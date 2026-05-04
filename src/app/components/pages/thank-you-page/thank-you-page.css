@@ -1,23 +1,24 @@
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: calc(100vh - 200px);
-    padding: 3rem 1rem;
-    background-color: var(--blue-beige);
+app-basic-heading {
+    display: block;
+    --basic-heading-background: var(--half-transparent-dark_lavender);
+
 }
 
 .message-section {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    background-color: var(--quater-transparent-dark_lavender);
 }
+
 
 .message-box {
     background-color: white;
     padding: clamp(2rem, 5vw, 3rem);
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 70vw;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
